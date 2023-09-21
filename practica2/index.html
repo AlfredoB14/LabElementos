@@ -92,11 +92,12 @@
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
                         <p class="fs-6 mb-4">Placa Arduino UNO</p>
-                        <p class="fs-6 mb-4">LEDS</p>
-                        <p class="fs-6 mb-4">Push Buttons</p>
+                        <p class="fs-6 mb-4">Servomotores</p>
+                        <p class="fs-6 mb-4">Potenciometros</p>
                         <p class="fs-6 mb-4">Cables Macho Macho</p>
                         <p class="fs-6 mb-4">Resistencias</p>
-                        <p class="fs-6 mb-4">Display de 7 segmentos</p>
+                        <p class="fs-6 mb-4">LEDS</p>
+
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
@@ -104,7 +105,7 @@
                         
                             <p id="simulacion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
-                            <p class="fs-6 mb-4">La simulación de los 18 circuitos se realizó por medio de Tinkercad, donde antes de realizar el armado, se probó cómo funcionaba cada uno para poder verificar si estaba funcionando correctamente o no. Después de este proceso, al saber que cómo funcionaban los circuitos se armaba cada uno en orden después de su simulación.</p>
+                            <p class="fs-6 mb-4">La simulación de los 9 circuitos se realizó por medio de Tinkercad, donde antes de realizar el armado, se probó cómo funcionaba cada uno para poder verificar si estaba funcionando correctamente o no. Después de este proceso, al saber que cómo funcionaban los circuitos se armaba cada uno en orden después de su simulación.</p>
                             
 
                             <p id="diseño">
@@ -113,13 +114,13 @@
                             
                             <p id="construccion">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">La construcción de los 18 circuitos se basó en usar los materiales mencionados al principio del reporte para construir cada uno de los ejemplos que se nos proporcionó por el curso básico de Arduino en Tinkercad. </p>
+                            <p class="fs-6 mb-4">La construcción de los 9 circuitos se basó en usar los materiales mencionados al principio del reporte para construir cada uno de los ejemplos que se nos proporcionó por el curso básico de Arduino en Tinkercad. </p>
                             <p class="fs-6 mb-4">Fue un proceso en el que se tiene que prestar muchísima atención, ya que una mala construcción puede llevar a un corto circuito de alguno de los componentes.</p>
                             
 
                         <p id="resultados">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
-                        <p class="fs-6 mb-4">A continuación se prensentan los resultados, videos de cómo sirvió cada uno de los 18 circuitos armandos con el Arduino y una pequeña explicación de que hace cada uno de ellos.</p>
+                        <p class="fs-6 mb-4">A continuación se prensentan los resultados, videos de cómo sirvió cada uno de los 9 circuitos armandos con el Arduino y una pequeña explicación de que hace cada uno de ellos.</p>
                         <section id="practicas">
                             <div class="container px-5 my-2">
                                 <h2 class="fw-bolder fs-5 mb-4">Reportes de Prácticas:</h2>
@@ -130,12 +131,12 @@
                                     <div class="card h-100 shadow border-0">
                                         <center>
                                         <video width="50%"  controls>
-                                            <source src="video/P2.mp4" type="video/mp4">
+                                            <source src="video/P1.mp4" type="video/mp4">
                                         </video>
                                         </center>
                                         <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 1: Salida Digital HIGH</h5>
-                                            <p class="card-text mb-0">Usar la salida Digital HIGH para dejar prendido el LED de la Arduino.</p>
+                                            <h5 class="card-title mt-3 mb-1">Circuito 1: Servo 1</h5>
+                                            <p class="card-text mb-0">Se le mandan valores por medio del código para que se mueva el servomotor a 4 posiciones diferentes.</p>
                                         </div>
                                         <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                             <div class="d-flex align-items-end justify-content-between">
@@ -152,12 +153,33 @@
                                     <div class="card h-100 shadow border-0">
                                         <center>
                                         <video width="50%"  controls>
+                                            <source src="video/P2.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 2: Servo II</h5>
+                                            <p class="card-text mb-0">Hacer que se mueva el servomotor de una manera lenta hasta llegar a su límite y regresar.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
                                             <source src="video/P3.mp4" type="video/mp4">
                                         </video>
                                         </center>
                                         <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 2: Salida Digital LOW</h5>
-                                            <p class="card-text mb-0">Usar la salida Digital LOW para dejar APAGADO el LED de la Arduino.</p>
+                                            <h5 class="card-title mt-3 mb-1">Circuito 3: Potenciometro Serial Print</h5>
+                                            <p class="card-text mb-0">Se imprime en la consola del IDE los valores que le están llegando al servomotor.</p>
                                         </div>
                                         <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                             <div class="d-flex align-items-end justify-content-between">
@@ -177,8 +199,8 @@
                                         </video>
                                         </center>
                                         <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 3: Salida Digital Delay</h5>
-                                            <p class="card-text mb-0">Con el uso de un delay y las salidas digitales HIGH y LOW se realiza un parpadeo a un ritmo más lento dependiendo del valor del delay.</p>
+                                            <h5 class="card-title mt-3 mb-1">Circuito 4: Servos</h5>
+                                            <p class="card-text mb-0">Con un potenciometro se mueven a la par dos servomotores.</p>
                                         </div>
                                         <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                             <div class="d-flex align-items-end justify-content-between">
@@ -188,6 +210,7 @@
                                     </div>
                                 </div>
                                 <!------------------------------------------->
+
 
                                 <!------------------------------------------->
                                 <div class="col-lg-4 mb-5">
@@ -198,8 +221,8 @@
                                         </video>
                                         </center>
                                         <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 4: Salida Digital LED</h5>
-                                            <p class="card-text mb-0">Con HIGH, LOW y un Delay se hace parpadear un LED.</p>
+                                            <h5 class="card-title mt-3 mb-1">Circuito 5: Servos invertidos</h5>
+                                            <p class="card-text mb-0">Con un potenciometro se mueven los dos servomotores, cada uno en una dirección diferente.</p>
                                         </div>
                                         <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                             <div class="d-flex align-items-end justify-content-between">
@@ -209,7 +232,6 @@
                                     </div>
                                 </div>
                                 <!------------------------------------------->
-
 
                                 <!------------------------------------------->
                                 <div class="col-lg-4 mb-5">
@@ -220,29 +242,8 @@
                                         </video>
                                         </center>
                                         <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 5: Salida Digital Protoboard I</h5>
-                                            <p class="card-text mb-0">Con HIGH, LOW y un Delay se hace parpadear un LED, pero ahora en una Protoboard.</p>
-                                        </div>
-                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                            <div class="d-flex align-items-end justify-content-between">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!------------------------------------------->
-
-                                <!------------------------------------------->
-                                <div class="col-lg-4 mb-5">
-                                    <div class="card h-100 shadow border-0">
-                                        <center>
-                                        <video width="50%"  controls>
-                                            <source src="video/P7.mp4" type="video/mp4">
-                                        </video>
-                                        </center>
-                                        <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 6: Salida Digital Protoboard II</h5>
-                                            <p class="card-text mb-0">Con HIGH, LOW y un Delay se hace parpadear un LED, pero ahora en una Protoboard.</p>
+                                            <h5 class="card-title mt-3 mb-1">Circuito 6: Servos independientes</h5>
+                                            <p class="card-text mb-0">Se mueven dos servomotres, cada uno tiene su propio potenciometro para hacerlos girar.</p>
                                         </div>
                                         <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                             <div class="d-flex align-items-end justify-content-between">
@@ -258,12 +259,12 @@
                                     <div class="card h-100 shadow border-0">
                                         <center>
                                         <video width="50%"  controls>
-                                            <source src="video/P9.mp4" type="video/mp4">
+                                            <source src="video/P7.mp4" type="video/mp4">
                                         </video>
                                         </center>
                                         <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 7: Salida Digital LEDs I</h5>
-                                            <p class="card-text mb-0">Con HIGH, LOW y un Delay se hace parpadear dos LEDs al mismo tiempo.</p>
+                                            <h5 class="card-title mt-3 mb-1">Circuito 7: Servos independientes y LEDs</h5>
+                                            <p class="card-text mb-0">Se mueven dos servomotres, cada uno tiene su propio potenciometro para hacerlos girar. Cuando un servomotor llegue a su límite su LED correspondiente brillará</p>
                                         </div>
                                         <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                             <div class="d-flex align-items-end justify-content-between">
@@ -284,8 +285,8 @@
                                         </video>
                                         </center>
                                         <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 8: Salida Digital LEDs II</h5>
-                                            <p class="card-text mb-0">Se prenden los LEDs alternando de uno al otro.</p>
+                                            <h5 class="card-title mt-3 mb-1">Circuito 8: Servo fuente</h5>
+                                            <p class="card-text mb-0">Se utilizó un potenciometro para controlar el servomotor, en este caso se utilizó una fuente de poder para mandarle voltaje y tierra a la parte que está conectada al servomotor.</p>
                                         </div>
                                         <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
                                             <div class="d-flex align-items-end justify-content-between">
@@ -294,29 +295,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!------------------------------------------->   
-
-                                 <!------------------------------------------->
-                                 <div class="col-lg-4 mb-5">
-                                    <div class="card h-100 shadow border-0">
-                                        <center>
-                                        <video width="50%"  controls>
-                                            <source src="video/P10.mp4" type="video/mp4">
-                                        </video>
-                                        </center>
-                                        <div class="card-body px-4">
-                                            <h5 class="card-title mt-3 mb-1">Circuito 9: Salida digital display 7 segmentos</h5>
-                                            <p class="card-text mb-0">Se hace prender un Display de 7 segmentos.</p>
-                                        </div>
-                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                            <div class="d-flex align-items-end justify-content-between">
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!------------------------------------------->   
+                                <!------------------------------------------->  
 
 
                             </div>
@@ -325,12 +304,12 @@
 
                         <p id="conclusiones">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Fue una práctica llena de conocimientos nuevos, dónde se nos introdujo de una muy buena manera a lo que es el Arduino y la sintaxis de los códigos en C. Cada uno de los circuitos nos demostraba cosas diferentes que se pueden hacer con este microcontrolador, desde prender leds, detectar la señal de botones, hasta hacer un contador con un display de 7 segmentos.</p>
+                        <p class="fs-6 mb-4">Fue una práctica donde se nos presentaron dos cosas que no habíamos usado hasta el momento el potenciometro y el servomotor, igualmente se nos esneñó a imprimir valores en la terminal, algo que en el curso pasado no se nos había enseñado.</p>
                         
 
                         <p id="referencias">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
-                        <p class="fs-6 mb-4">TinkerCad | From mind to design in minutes. (s.f.-b). Tinkercad. https://www.tinkercad.com/dashboard?type=activities&class=b5s2eOYhgMn</p>
+                        <p class="fs-6 mb-4">TinkerCad | From mind to design in minutes. (s.f.-b). Tinkercad. https://www.tinkercad.com/classrooms/b5s2eOYhgMn/activities/7h8cznM37L1</p>
                         
 
                 </div>
