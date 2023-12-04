@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 6 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Elementos Programables I</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Sensores</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Alfredo.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alfredo Barranco Ahued</div>
+                                <div class="text-muted">Ing. Sistemas Computacionales</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Octubre 11, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Sensores</a>
+
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="300px" src="img/Sensores.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">En esta práctica de laboratorio, se probaron 6 sensores diferentes para Arduino.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Los sensores son dispositivos electrónicos que convierten una señal física, como la temperatura, la luz o el movimiento, en una señal eléctrica que puede ser interpretada por un microcontrolador. Los microcontroladores, como la placa Arduino, son dispositivos electrónicos programables que pueden utilizarse para controlar dispositivos externos, como motores, luces y pantallas.</p>
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Placa Arduino UNO</p>
+                        <p class="fs-6 mb-4">Push Buttons</p>
+                        <p class="fs-6 mb-4">Cables Macho Macho</p>
+                        <p class="fs-6 mb-4">Pantalla OLED</p>
+                        <p class="fs-6 mb-4">Sensor Ultrasónico</p>
+                        <p class="fs-6 mb-4">Sensor de Temperatura</p>
+                        <p class="fs-6 mb-4">Sensor de Luz</p>
+                        <p class="fs-6 mb-4">Sensor de Ritmo Cardiaco</p>
+
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">El desarrollo de la práctica comenzó desde que realizamos una lista de 30 sensores diferentes para tener un mejor entendimiento de cada uno.</p>
+                           
+                        <img src="img/Lista1.png" height="30%" width="30%" alt=""></img>
+                        <img src="img/Lista2.png" height="30%" width="30%" alt=""></img>                         
+                        <img src="img/Lista3.png" height="30%" width="30%" alt=""></img>                         
+
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">A continuación se prensentan los resultados, videos de cómo sirve la pantalla OLED.</p>
+
+                        <section id="practicas">
+                            <div class="container px-5 my-2">
+                                <h2 class="fw-bolder fs-5 mb-4">Reportes de Prácticas:</h2>
+                                <div class="row gx-5">
+                        <!------------------------------------------->
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <center>
+                                <video width="50%"  controls>
+                                    <source src="video/BotónDigital.mp4" type="video/mp4">
+                                </video>
+                                </center>
+                                <div class="card-body px-4">
+                                    <h5 class="card-title mt-3 mb-1">Sensor 1 - Botón Digital</h5>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------------------------->
+
+                        <!------------------------------------------->
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <center>
+                                <video width="50%"  controls>
+                                    <source src="video/Buzzer.mp4" type="video/mp4">
+                                </video>
+                                </center>
+                                <div class="card-body px-4">
+                                    <h5 class="card-title mt-3 mb-1">Sensor 2 - Buzzer Digital</h5>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------------------------->
+
+                        <!------------------------------------------->
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <center>
+                                <video width="50%"  controls>
+                                    <source src="video/Laser.mp4" type="video/mp4">
+                                </video>
+                                </center>
+                                <div class="card-body px-4">
+                                    <h5 class="card-title mt-3 mb-1">Sensor 3 - Laser</h5>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------------------------->
+
+                        <!------------------------------------------->
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <center>
+                                <video width="50%"  controls>
+                                    <source src="video/SensorTemp.mp4" type="video/mp4">
+                                </video>
+                                </center>
+                                <div class="card-body px-4">
+                                    <h5 class="card-title mt-3 mb-1">Sensor 4 - Sensor de Temperatura</h5>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------------------------->
+
+                        <!------------------------------------------->
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <center>
+                                <video width="100%"  controls>
+                                    <source src="video/Ultrasonico.mp4" type="video/mp4">
+                                </video>
+                                </center>
+                                <div class="card-body px-4">
+                                    <h5 class="card-title mt-3 mb-1">Sensor 5 - Sensor Ultrasónico</h5>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------------------------->
+
+                        <!------------------------------------------->
+                        <div class="col-lg-4 mb-5">
+                            <div class="card h-100 shadow border-0">
+                                <center>
+                                <video width="50%"  controls>
+                                    <source src="video/RPM.mp4" type="video/mp4">
+                                </video>
+                                </center>
+                                <div class="card-body px-4">
+                                    <h5 class="card-title mt-3 mb-1">Sensor 6 - Sensor de Ritmo Cardiaco</h5>
+                                </div>
+                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                    <div class="d-flex align-items-end justify-content-between">
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------------------------------->
+                    </div>
+                </div>
+            </section> 
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">
+                            En conclusión, los sensores son dispositivos imprescindibles en la electrónica. Pueden detectar y medir una amplia gama de fenómenos físicos, en diferentes entornos. Su versatilidad y aplicabilidad se traduce en mejoras en nuestras vidas, como la automatización de procesos, la creación de sistemas de alerta y la optimización de sistemas complejos.
+
+                            La evolución y diversificación de los sensores contribuye a la innovación tecnológica, permitiendo soluciones más eficientes y adaptadas a las necesidades cambiantes de la sociedad. La proliferación de sensores impulsa el avance hacia un mundo más conectado, inteligente y eficiente.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">TinkerCad | From mind to design in minutes. (s.f.-b). Tinkercad. https://www.tinkercad.com/classrooms/kKxYmpPDJXs/activities/8e6rkk3tuvu</p>
+                        
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 4 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Laboratorio de Elementos Programables I</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Attiny85 Outputs</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="assets/Alfredo.jpg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Alfredo Barranco Ahued</div>
+                                <div class="text-muted">Ing. Sistemas Computacionales</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Septiembre 13, 2023</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Attiny85</a>
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+
+                    <figure class="mb-4"><img class="img-fluid rounded" width="300px" src="img/ATTINY85.jpg" alt="..." /></figure>
+                                
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">La práctica consistió en realizar diferentes circuirtos con el microcontrolador Attiny85 usando la placa Arduino como programador para correr los códigos.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
+                        <p class="fs-6 mb-4">Una placa Arduino es una placa de circuito impreso que contiene un microcontrolador, memoria, puertos de entrada y salida y otros componentes electrónicos. El microcontrolador es el cerebro de la placa y es responsable de ejecutar el código. La memoria almacena el código y otros datos. Los puertos de entrada y salida permiten conectar la placa a otros dispositivos.</p>
+                        <p class="fs-6 mb-4">Las placas Arduino se pueden programar utilizando el lenguaje de programación Arduino. Arduino es un lenguaje de programación de alto nivel que es fácil de aprender. Hay muchas bibliotecas y ejemplos disponibles para ayudar a los usuarios a comenzar.</p>
+                        <p class="fs-6 mb-4">El Attiny85, un pequeño microcontrolador, con el que podremos realizar pequeños proyectos, en los que no necesitemos gran cantidad de memoria ni de entradas o salidas.</p>
+
+                        <p id="materiales">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
+                        <p class="fs-6 mb-4">Placa Arduino UNO</p>
+                        <p class="fs-6 mb-4">LEDS</p>
+                        <p class="fs-6 mb-4">Push Buttons</p>
+                        <p class="fs-6 mb-4">Cables Macho Macho</p>
+                        <p class="fs-6 mb-4">Resistencias</p>
+                        <p class="fs-6 mb-4">Microcontrolador Attiny85</p>
+                        <p class="fs-6 mb-4">Motores DC</p>
+                        <p class="fs-6 mb-4">NeoPixel individual y en tira</p>
+                        <p class="fs-6 mb-4">Servomotores</p>
+
+                        
+                        <p id="desarrollo">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
+                        <p class="fs-6 mb-4">La práctica comenzó con el proceso de convertir la placa Arduino en un programador para poder programar el Attiny85. Este proceso consistió en los siguientes pasos, todo dentro de la IDE de arduino: </p>
+                        <p class="fs-6 mb-4">1. Importar la librería de Attiny</p>
+                        <p class="fs-6 mb-4">2. Configurar el Arduino como ISP</p>
+                        <p class="fs-6 mb-4">3. Configurar el Attiny85</p>
+                        <p class="fs-6 mb-4">4. Quemar el Bootloader</p>
+                        <p class="fs-6 mb-4">5. Probar el código de ejemplo</p>
+
+                        <p class="fs-6 mb-4">El desarrollo de la práctica consiste en 3 pasos, la simulación, el diseño y la construcción, a continuación se desgloza más de cada uno de estos puntos para ver cómo se llegó a los resultados de la práctica.</p>
+                        
+                            <p id="simulacion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Simulación</h1>
+                            <p class="fs-6 mb-4">La simulación de los 14 circuitos se realizó por medio de Tinkercad, donde antes de realizar el armado, se probó cómo funcionaba cada uno para poder verificar si estaba funcionando correctamente o no. Después de este proceso, al saber que cómo funcionaban los circuitos se armaba cada uno en orden después de su simulación.</p>
+                            
+                            <p id="construccion">
+                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
+                            <p class="fs-6 mb-4">La construcción de los 14 circuitos se basó en usar los materiales mencionados al principio del reporte para construir cada uno de los ejemplos que se nos proporcionó por el curso básico de Arduino en Tinkercad. </p>
+                            <p class="fs-6 mb-4">Fue un proceso en el que se tiene que prestar muchísima atención, ya que una mala construcción puede llevar a un corto circuito de alguno de los componentes.</p>
+                            
+
+                        <p id="resultados">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
+                        <p class="fs-6 mb-4">A continuación se prensentan los resultados, videos de cómo sirvió cada uno de los 13 circuitos armandos con el Arduino y el Attiny, así como una pequeña explicación de que hace cada uno de ellos.</p>
+                        <section id="practicas">
+                            <div class="container px-5 my-2">
+                                <h2 class="fw-bolder fs-5 mb-4">Reportes de Prácticas:</h2>
+                                <div class="row gx-5">
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P1.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 1: 2 Botones</h5>
+                                            <p class="card-text mb-0">Controlar el prendido y apagado de un LED con dos botones.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P2.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 2: LED Blink - 2 Botones</h5>
+                                            <p class="card-text mb-0">Controlar el parpadeo de un LED con dos botones.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P3.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 3: Buzzer 2 Botones</h5>
+                                            <p class="card-text mb-0">Controlar el sonido que emite el buzzer con dos botones.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P4.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 4: LED RGB </h5>
+                                            <p class="card-text mb-0">Cambio de color de un LEd RGB con dos botones.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P5.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 5: LED RGB Contador</h5>
+                                            <p class="card-text mb-0">El LED RGB recorre colores que se encuentran en una lista del código con dos botones.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P6.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 6: Motor DC </h5>
+                                            <p class="card-text mb-0">Botón de prendido y uno de apagado para un motorDC.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+                                <!------------------------------------------->
+                                <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P7.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 7: LED PWM</h5>
+                                            <p class="card-text mb-0">Por medio de cambios en el PWM controlamos la itensidad de la señal que le llega al LED.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+
+                                 <!------------------------------------------->
+                                 <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P8.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 8: LED PWM dos botones</h5>
+                                            <p class="card-text mb-0">Por medio de cambios en el PWM controlamos la itensidad de la señal que le llega al LED. Con un botón sube y con el otro baja.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->                                   
+
+
+                                 <!------------------------------------------->
+                                 <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="100%"  controls>
+                                            <source src="video/P9.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 9: Buzzer PWM</h5>
+                                            <p class="card-text mb-0">Por medio de cambios en el PWM controlamos la itensidad del sonido que emite el Buzzer.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->   
+
+                                 <!------------------------------------------->
+                                 <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="100%"  controls>
+                                            <source src="video/P10.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 10: Buzzer PWM dos botones</h5>
+                                            <p class="card-text mb-0">Por medio de cambios en el PWM controlamos la itensidad del sonido que emite el Buzzer.Con un botón sube y con el otro baja.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->   
+
+                                 <!------------------------------------------->
+                                 <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="90%"  controls>
+                                            <source src="video/P11.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 11: Motor DC PWM</h5>
+                                            <p class="card-text mb-0">Por medio de cambios en el PWM controlamos la velocidad con la que se mueve el MotorDC.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->   
+
+                                 <!------------------------------------------->
+                                 <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="100%"  controls>
+                                            <source src="video/P12.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 12: Servomotor</h5>
+                                            <p class="card-text mb-0">Movimiento de un Servomotor.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->   
+
+                                 <!------------------------------------------->
+                                 <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="100%"  controls>
+                                            <source src="video/P13.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 13: Servomotor dos botones</h5>
+                                            <p class="card-text mb-0">Con un botón se mueve a la derecha y con el otro a la izquierda.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->   
+ 
+                                 <!------------------------------------------->
+                                 <div class="col-lg-4 mb-5">
+                                    <div class="card h-100 shadow border-0">
+                                        <center>
+                                        <video width="50%"  controls>
+                                            <source src="video/P14.mp4" type="video/mp4">
+                                        </video>
+                                        </center>
+                                        <div class="card-body px-4">
+                                            <h5 class="card-title mt-3 mb-1">Circuito 14: Neopixel</h5>
+                                            <p class="card-text mb-0">Activación de un Neopixel.</p>
+                                        </div>
+                                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                                            <div class="d-flex align-items-end justify-content-between">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!------------------------------------------->
+                            </div>
+                        </div>
+                    </section> 
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                        <p class="fs-6 mb-4">Esta práctica nos ayudó a aprender cómo configurar una placa Arduino para que sirva como un programador para el Attiny, así como más práctica haciendo los circuitos electrónicos y la diferencia entre hacerlo directo desde el Arduino y hacerlo con el Attiny.</p>
+                        
+
+                        <p id="referencias">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Referencias -</h2>
+                        <p class="fs-6 mb-4">TinkerCad | From mind to design in minutes. (s.f.-b). Tinkercad. https://www.tinkercad.com/classrooms/kKxYmpPDJXs/activities/8e6rkk3tuvu</p>
+                        
+
+                </div>
+            </section>
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
